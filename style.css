@@ -1,0 +1,55 @@
+body {
+    padding: 20px 20px;
+}
+
+form {
+    margin-top: 35px;
+}
+
+select {
+    display: block;
+    width: 170px;
+    margin-top: 20px;
+}
+
+fieldset {
+    border: none;
+    padding: 0;
+    margin-top: 15px;
+}
+
+legend {
+    font-size: 30px;
+    font-weight: bold;
+    margin-bottom: 10px;
+}
+
+label {
+    display: block;
+    margin-bottom: 10px;
+}
+
+textarea {
+    width: 250px;
+    height: 150px;
+    resize: vertical;
+}
+
+button {
+    margin-top: 30px;
+    width: 80px;
+    padding: 2px 5px;
+}
+
+table {
+    width: 50%;
+    height: auto;
+    font-family: "Tahoma";
+    font-size: 20px;
+    border-collapse: collapse;
+    text-align: center;  
+}
+
+td {
+    padding: 5px;
+}

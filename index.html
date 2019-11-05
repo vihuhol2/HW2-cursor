@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>hw2-cursor Dovhal Oleksandr</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <h1>Home Work #2.HTML</h1>
+  <main>
+      <section id="table">
+          <table border="1">
+       <tr>
+           <td>Имя</td>
+           <td>Фамилия</td>
+           <td>Телефон</td>
+           <td>Email</td>
+       </tr>
+       <tr>
+           <td>Антон</td>
+           <td>Ковальчак</td>
+           <td>0673456276</td>
+           <td>antony@gmail.com</td>
+       </tr>
+       <tr>
+           <td>Игорь</td>
+           <td>Костюк</td>
+           <td>0934459012</td>
+           <td>yopta@gmail.com</td>
+       </tr>
+       <tr>
+           <td>Артем</td>
+           <td>Глебов</td>
+           <td>0503455134</td>
+           <td>gleb1985@gmail.com</td>
+       </tr>
+       <tr>
+           <td>Андрей</td>
+           <td>Волошин</td>
+           <td>0987840965</td>
+           <td>andron666@gmail.com</td>
+       </tr>
+         </table>
+      </section>
+      
+      <section id="form">
+        <form action="">
+         <input type="text" placeholder="Введите имя" required>
+         <input type="text" placeholder="Введите фамилию" required>
+               
+       <fieldset>
+        <legend>Выберите пол</legend>
+        <label for="male"><input type="radio" name="sex" id="male" checked>М</label> 
+        <label for="female"><input type="radio" name="sex" id="female">Ж</label>
+      <fieldset>
+      
+      <textarea name="textarea" placeholder="Введите текст"></textarea>
+                
+      <select name="city" id="dropdown">
+        <option disabled selected value="default">Выберите город</option>
+        <option value="Kiev">Киев</option>
+        <option value="Kharkiv">Харьков</option>
+        <option value="Lviv">Львов</option>
+        <option value="Dnieper">Днепр</option>
+        <option value="Zaporozhye">Запорожье</option>
+        <option value="Odessa">Одесса</option>
+      </select>
+      
+      <fieldset>
+        <legend>Выберите язык</legend>
+        <label for="ru"><input type="checkbox" name="lang" id="ru">Русский</label>
+        <label for="ua"><input type="checkbox" name=lang"" id="ua">Українська</label>
+        <label for="eng"><input type="checkbox" name="lang" id="eng">English</label> 
+      </fieldset>
+         <button type="submit">Отправить</button>
+      </fieldset>
+       </form>
+      </section>   
+  </main> 
+</body>
+</html>
